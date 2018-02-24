@@ -1,9 +1,9 @@
 html {
 	--text: #444444;
-	--link: #cceeff;
+	--link: #ccccff;
 	--line: #ffefaf;
 
-	font: 125% Roboto, sans-serif;
+	font: 125% 'Roboto', sans-serif;
 	color: var(--text);
 }
 
