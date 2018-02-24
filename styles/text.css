@@ -11,7 +11,7 @@ a {
 	color: inherit;
 	text-decoration: none;
 	background: var(--link);
-	border-radius: 0.2em;
+	border-radius: 0.2rem;
 }
 
 a:before,
