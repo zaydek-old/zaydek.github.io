@@ -1,0 +1,28 @@
+html {
+	--text: #444444;
+	--link: #cceeff;
+	--line: #ffefaf;
+
+	font: 125% Roboto, sans-serif;
+	color: var(--text);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	background: var(--link);
+	border-radius: 0.2em;
+}
+
+a:before,
+a:after {
+	content: "\00a0";
+}
+
+u {
+	text-decoration: none;
+	box-shadow: inset 0 -0.25rem var(--line);
+}
+
+.left  { float: left; }
+.right { margin-left: 20%; }

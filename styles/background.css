@@ -1,0 +1,27 @@
+:root {
+	--background: rgba(0,0,0,0.03);
+	--foreground: #ffffff;
+
+	--half: 36pt;
+	--inch: 72pt;
+}
+
+html {
+	background: var(--background);
+}
+
+body {
+	margin-top:    var(--half);
+	margin-bottom: var(--half);
+	padding:       var(--half);
+
+	width:  calc( 8.5 * var(--inch));
+	height: calc(11.0 * var(--inch));
+	background: var(--foreground);
+}
+
+@media print{
+	body {
+		margin: 0;
+	}
+}
