@@ -3,7 +3,7 @@ html {
 	--foreground: #ffffff;
 
 	--half: 36pt;
-	--full: 72pt;
+	--inch: 72pt;
 
 	background: var(--background);
 }
@@ -13,8 +13,8 @@ body {
 	margin-bottom: var(--half);
 	padding:       var(--half);
 
-	width:  calc( 8.5 * var(--full));
-	height: calc(11.0 * var(--full));
+	width:  calc( 8.5 * var(--inch));
+	height: calc(11.0 * var(--inch));
 	background: var(--foreground);
 }
 
